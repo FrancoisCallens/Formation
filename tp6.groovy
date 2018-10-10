@@ -13,7 +13,7 @@ node {
   }
   stage ('1- Print all env'){
     echo 'Affiche toutes les variables environnement disponibles :'
-    // sh 'env'
+    sh 'env'
   }
 }
 
